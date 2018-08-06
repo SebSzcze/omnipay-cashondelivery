@@ -25,11 +25,13 @@
         "omnipay/tests": "^3.0"
     },
     "autoload": {
-        "branch-alias": {
-            "dev-develop": "1.0.x-dev"
-        },
         "psr-4": {
             "Omnipay\\CashOnDelivery\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "1.0.x-dev"
         }
     }
 }
